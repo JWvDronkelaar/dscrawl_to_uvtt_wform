@@ -1,0 +1,31 @@
+{
+	"format": 0.3,
+	"resolution": {
+		"map_origin": {
+			"x": 0,
+			"y": 0
+		},
+		"map_size": {
+			"x": 0,
+			"y": 0
+		},
+		"pixels_per_grid": 70
+	},
+	"line_of_sight": [
+
+	],
+	"objects_line_of_sight": [
+
+	],
+	"portals": [
+
+	],
+	"environment": {
+		"baked_lighting": true,
+		"ambient_light": "ffffffff"
+	},
+	"lights": [
+
+	],
+	"image": ""
+}
