@@ -340,7 +340,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Dungeon Scrawl to UVTT (v1.0.0)";
+            this.Text = "Dungeon Scrawl to UVTT (v1.0.1)";
             ((System.ComponentModel.ISupportInitialize)(this.mapWidthNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mapHeightNumericUpDown)).EndInit();
             this.groupBox1.ResumeLayout(false);

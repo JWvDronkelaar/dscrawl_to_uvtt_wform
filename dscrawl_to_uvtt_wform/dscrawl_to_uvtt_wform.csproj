@@ -7,7 +7,7 @@
     <ProjectGuid>{D2E08ACE-AEB3-4EAE-9DC2-6E332A22275C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>dscrawl_to_uvtt_wform</RootNamespace>
-    <AssemblyName>Dungeon Scrawl to UVTT %28v1.0.1%29</AssemblyName>
+    <AssemblyName>Dungeon Scrawl to UVTT</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
