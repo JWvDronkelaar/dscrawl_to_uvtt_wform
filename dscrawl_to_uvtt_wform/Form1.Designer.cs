@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.execButton = new System.Windows.Forms.Button();
             this.mapWidthNumericUpDown = new System.Windows.Forms.NumericUpDown();
             this.mapHeightNumericUpDown = new System.Windows.Forms.NumericUpDown();
@@ -336,9 +337,10 @@
             this.Controls.Add(this.cancelButton);
             this.Controls.Add(this.execButton);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form1";
-            this.Text = "Dungeon Scrawl to UVTT";
+            this.Text = "Dungeon Scrawl to UVTT (v1.0.0)";
             ((System.ComponentModel.ISupportInitialize)(this.mapWidthNumericUpDown)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.mapHeightNumericUpDown)).EndInit();
             this.groupBox1.ResumeLayout(false);

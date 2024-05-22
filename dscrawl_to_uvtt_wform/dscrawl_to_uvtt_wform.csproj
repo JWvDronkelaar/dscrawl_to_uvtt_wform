@@ -7,7 +7,7 @@
     <ProjectGuid>{D2E08ACE-AEB3-4EAE-9DC2-6E332A22275C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>dscrawl_to_uvtt_wform</RootNamespace>
-    <AssemblyName>dscrawl_to_uvtt_wform</AssemblyName>
+    <AssemblyName>Dungeon Scrawl to UVTT</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationRevision>1</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -59,6 +59,10 @@
   </PropertyGroup>
   <PropertyGroup>
     <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationIcon>dscrawl_to_uvtt.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
@@ -131,6 +135,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="images\StatusOffline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="dscrawl_to_uvtt.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="release\Dungeon Scrawl to UVTT.exe" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
