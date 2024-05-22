@@ -14,7 +14,7 @@ class DStoUVTT
 {
     public class Global
     {
-        public static Coordinate origin_offset = new Coordinate {x = (double) 9999999999999999999, y = (double)9999999999999999999};
+        public static Coordinate origin_offset = new Coordinate {x = double.MaxValue, y = double.MaxValue};
         public const double SCALE = 0.0277777777777778;
     }
 

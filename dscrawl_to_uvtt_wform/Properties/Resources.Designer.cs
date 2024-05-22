@@ -59,21 +59,7 @@ namespace dscrawl_to_uvtt_wform.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap FolderOpened {
-            get {
-                object obj = ResourceManager.GetObject("FolderOpened", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap StatusOffline {
+         internal static System.Drawing.Bitmap StatusOffline {
             get {
                 object obj = ResourceManager.GetObject("StatusOffline", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
